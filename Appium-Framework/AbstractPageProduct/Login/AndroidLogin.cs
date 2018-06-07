@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AppiumFramework.AbstractProduct.Login
+namespace AppiumFramework.Login
 {
-    class AndroidLogin
+    public class AndroidLogin
     {
     }
 }
