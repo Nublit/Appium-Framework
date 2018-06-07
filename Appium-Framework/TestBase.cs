@@ -12,8 +12,10 @@ namespace AppiumFramework
         public void Setup()
         {
             var driverFactory = new DriverFactory();
-
             SetupFixture.Driver = driverFactory.CreateAndroidDriver().appiumDriver;
+
+            var pageFactory = new AbstractPageFactory.PageFactory();
+            SetupFixture.HomePage = pageFactory.CreateAndroidHomePage();
         }
 
         [TearDown]

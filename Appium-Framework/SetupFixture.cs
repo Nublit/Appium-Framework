@@ -19,6 +19,9 @@ namespace AppiumFramework
         [ThreadStatic]
         public static ContainerBuilder containerBuilder;
 
+        [ThreadStatic]
+        public static HomePage.IHomePage HomePage;
+
         [OneTimeSetUp]
         public void OneTimeSetup()
         {
