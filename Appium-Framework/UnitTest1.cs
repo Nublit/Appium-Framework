@@ -1,13 +1,15 @@
-using System;
-using Xunit;
+using AppiumFramework;
+using NUnit.Framework;
 
-namespace Appium_Framework
+namespace AppiumFFramework
 {
-    public class UnitTest1
+    [TestFixture]
+    public class SomeTest1 : TestBase
     {
-        [Fact]
-        public void Test1()
+        [Test]
+        public void TestMethod1()
         {
+
         }
     }
 }
