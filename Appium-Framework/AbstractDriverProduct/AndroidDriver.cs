@@ -18,7 +18,7 @@ namespace AppiumFramework.AbstractDriverProduct
             desiredCapabilities.SetCapability("deviceName", "Real_JPBlue");
             desiredCapabilities.SetCapability("app", @"C:\git\test.apk");
 
-            string standAloneServerURI = "http://localhost:4444/wd/hub";
+            string standAloneServerURI = @"http://localhost:4444/wd/hub";
             TimeSpan serverWait = TimeSpan.FromSeconds(Int32.Parse("1200"));
             TimeSpan wait = TimeSpan.FromSeconds(Int32.Parse("60"));
 
