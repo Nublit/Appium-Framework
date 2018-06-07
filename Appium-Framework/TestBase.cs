@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using OpenQA.Selenium.Appium;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +11,9 @@ namespace AppiumFramework
         [SetUp]
         public void Setup()
         {
+            var driverFactory = new DriverFactory();
 
+            SetupFixture.Driver = driverFactory.CreateAndroidDriver().appiumDriver;
         }
 
         [TearDown]

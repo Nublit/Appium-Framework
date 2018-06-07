@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AppiumFramework.AbstractProduct.Login
 {
-    class AbstractLogin
+    public abstract class AbstractLogin
     {
     }
 }

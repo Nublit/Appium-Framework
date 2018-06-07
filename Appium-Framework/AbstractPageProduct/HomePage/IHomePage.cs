@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AppiumFramework
+namespace AppiumFramework.HomePage
 {
-    class AbstractDriverFactory
+    public interface IHomePage
     {
     }
 }
