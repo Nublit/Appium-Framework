@@ -18,10 +18,10 @@ namespace AppiumFramework.AbstractPageFactory
             throw new NotImplementedException();
         }
 
-        public override HomePage.IOSHomePage CreateiOSHomePage()
-        {
-            throw new NotImplementedException();
-        }
+        //public override HomePage.IOSHomePage CreateiOSHomePage()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public override iOSLogin CreateiOSLogin()
         {

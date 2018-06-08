@@ -10,7 +10,7 @@ namespace AppiumFramework.AbstractPageFactory
 
         public abstract Login.AndroidLogin CreateAndroidLogin();
 
-        public abstract HomePage.IOSHomePage CreateiOSHomePage();
+       // public abstract HomePage.IOSHomePage CreateiOSHomePage();
 
         public abstract Login.iOSLogin CreateiOSLogin();
     }
